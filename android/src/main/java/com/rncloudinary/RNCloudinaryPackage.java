@@ -16,7 +16,7 @@ public class RNCloudinaryPackage implements ReactPackage {
       return Arrays.<NativeModule>asList(new RNCloudinaryModule(reactContext));
     }
 
-    @Override
+    //@Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
       return Collections.emptyList();
     }
